@@ -16,4 +16,10 @@ public class CalcController {
 		return "25 + 36 = " + (25+36);
 	}
 	
+	@GetMapping(value="/sub")
+	public String sub() {
+		return "25 - 36 = " + (25-36);
+	}
+
+	
 }
